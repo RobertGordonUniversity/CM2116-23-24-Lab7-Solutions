@@ -71,15 +71,13 @@ public class QueueTest {
     public void testOfferNoSuccess(){
         java.util.Queue<String> queue = new Queue<>();
           
-        queue.add("a");
-        queue.add("b");
-        queue.add("c");
-        queue.add("d");
-        queue.add("e");
+        queue.offer("a");
+        queue.offer("b");
+        queue.offer("c");
+        queue.offer("d");
+        queue.offer("e");
 
-        queue.add("f"); // this should fail
-
-        boolean result = queue.offer("");
+        boolean result = queue.offer("f"); // this should fail
         assertFalse(result);
     }
 

@@ -25,6 +25,8 @@ public class ParserTest {
 
         assertFalse(result);
 
+        parser = new Parser();
+
         input = "hello world)";
         result = parser.parse(input);
 

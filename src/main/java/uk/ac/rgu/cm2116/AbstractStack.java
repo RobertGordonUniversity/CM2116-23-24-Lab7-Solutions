@@ -30,6 +30,12 @@ public interface AbstractStack<T> {
      */
     public int size();
 
+    /**
+     * Is this stack empty?
+     * @return
+     */
+    public boolean isEmpty();
+
     public static class StackOverflowException extends Exception{
         public StackOverflowException(String message){
             super(message);
