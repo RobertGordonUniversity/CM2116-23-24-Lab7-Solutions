@@ -25,7 +25,8 @@ public class GenericParser {
                     System.out.println(ex.getMessage());
                     return false;
                 }
-            }else if(c == this.c2){
+            }
+            if(c == this.c2){
                 try{
                     stack.pop();
                 }catch(StackUnderFlowException ex){

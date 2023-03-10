@@ -15,7 +15,8 @@ public class Parser {
                     System.out.println(ex.getMessage());
                     return false;
                 }
-            }else if(c == ')'){
+            }
+            if(c == ')'){
                 try{
                     stack.pop();
                 }catch(StackUnderFlowException ex){
