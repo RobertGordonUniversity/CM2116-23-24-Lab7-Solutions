@@ -1,4 +1,4 @@
-# CM2116 Lab 6
+# CM2116 Lab 7
 
 ## Aims
 
