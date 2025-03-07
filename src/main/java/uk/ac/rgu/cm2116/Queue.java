@@ -1,6 +1,6 @@
 package uk.ac.rgu.cm2116;
 
-public class Queue<T> extends SoCQueue<T> {
+public class Queue<T> extends SoCETQueue<T> {
 
     private Object[] queue;
     private int front;

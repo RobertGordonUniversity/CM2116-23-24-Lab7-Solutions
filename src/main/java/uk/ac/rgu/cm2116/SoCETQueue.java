@@ -3,7 +3,7 @@ package uk.ac.rgu.cm2116;
 import java.util.Collection;
 import java.util.Iterator;
 
-public abstract class SoCQueue<T> implements java.util.Queue<T>{
+public abstract class SoCETQueue<T> implements java.util.Queue<T>{
 
     @Override
     public int size() {
